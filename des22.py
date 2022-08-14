@@ -1,0 +1,7 @@
+name = input('Escreva aqui seu nome: ')
+print(name.upper())
+print(name.lower())
+sep = name.split()
+print(''.join(sep))
+print(f'O nome sem espaços é {len("".join(sep))}')
+print(f'Apenas o primeiro nome é: {len((sep[0]))}')
